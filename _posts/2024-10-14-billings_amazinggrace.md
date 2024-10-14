@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Billings: Amazing Grace"
-date: 2024-10-12
+date: 2024-10-14
 image: "./assets/images/morningstar.png"
 group: "lamedeer"
 ---
