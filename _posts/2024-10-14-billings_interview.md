@@ -2,7 +2,7 @@
 layout: post
 title: "Billings: Interview"
 date: 2024-10-14
-image: "./assets/images/morningstar_180_.png"
+image: "./assets/images/morningstar_180.png"
 group: "lamedeer"
 ---
 

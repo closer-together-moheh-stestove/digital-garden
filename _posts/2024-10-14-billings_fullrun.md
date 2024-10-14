@@ -2,7 +2,7 @@
 layout: post
 title: "Billings: Full Run"
 date: 2024-10-14
-image: "./assets/images/morningstar_270_.png"
+image: "./assets/images/morningstar_270.png"
 group: "lamedeer"
 ---
 

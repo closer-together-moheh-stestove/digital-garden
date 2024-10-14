@@ -2,7 +2,7 @@
 layout: post
 title: "Billings: Mess Around"
 date: 2024-10-14
-image: "./assets/images/morningstar_90_.png"
+image: "./assets/images/morningstar_90.png"
 group: "lamedeer"
 ---
 
