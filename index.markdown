@@ -35,9 +35,24 @@ layout: home
 	.image-container img:hover {
 		transform: scale(1.1);
 	}
+	
+	p {
+		position: absolute;
+		right: 15px;  /* Adjust for desired padding */
+		bottom: 0px; /* Adjust for desired padding */
+		text-align: right; /* Align text to the right */
+		color: #c0c0c0;
+	}
 </style>
 
 <div class="image-container" id="image-container">
+<p>
+closer | together
+<br/>
+moheh | stestove
+<br/>
+digital garden
+</p>
 </div>
 
 <script>
