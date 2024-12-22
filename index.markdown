@@ -17,7 +17,7 @@ layout: home
 	}
 	
 	.image-container {
-		position: relative;
+    	position: relative;
 		border: 1px solid #ccc;
 		overflow: hidden;
 		background-color: white;
@@ -34,6 +34,13 @@ layout: home
 
 	.image-container img:hover {
 		transform: scale(1.1);
+	}
+	
+	.anchor_text {
+		color: #aaa;
+		position: absolute;
+		text-align: center;
+		z-index: 10;
 	}
 	
 	p {
@@ -159,6 +166,13 @@ digital garden
             img.style.width = 9 + (Math.random() * 2) + '%'; // range is 9-11%
 
 			anchor.appendChild(img);
+			const span = document.createElement('span');
+			span.className = 'anchor_text';
+			span.textContent = image.title;
+			span.style.top = img.style.top;
+			span.style.left = img.style.left;
+			span.style.width = img.style.width;
+			imageContainer.appendChild(span);
 			imageContainer.appendChild(anchor);
 			
 			i++;
